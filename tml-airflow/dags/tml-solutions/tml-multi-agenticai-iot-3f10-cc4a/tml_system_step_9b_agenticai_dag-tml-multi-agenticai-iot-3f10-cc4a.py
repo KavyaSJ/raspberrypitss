@@ -51,8 +51,8 @@ if 'recipient' in os.environ:
    recipient=os.environ['recipient']
 
 default_args = {
- 'owner': 'Sebastian Maurice',   # <<< *** Change as needed
- 'ollamacontainername' : 'maadsdocker/tml-privategpt-with-gpu-nvidia-amd64-llama3-tools', #'maadsdocker/tml-privategpt-no-gpu-amd64',  # enter a valid container https://hub.docker.com/r/maadsdocker/tml-privategpt-no-gpu-amd64
+ 'owner': 'Kavya',   # <<< *** Change as needed
+ 'ollamacontainername' : 'maadsdocker/tml-privategpt-with-cpu-amd64-llama3-tools', #'maadsdocker/tml-privategpt-no-gpu-amd64',  # enter a valid container https://hub.docker.com/r/maadsdocker/tml-privategpt-no-gpu-amd64
  'rollbackoffset' : '15',  # <<< *** Change as needed
  'offset' : '-1', # leave as is
  'enabletls' : '1', # change as needed
